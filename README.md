@@ -24,7 +24,7 @@
 * 这个页面上还包含一个共享账号的链接，**没有账号**的可以点进去体验一下。
 ## docker部署
 ```shell
-docker run  -e PANDORA_CLOUD=cloud -e PANDORA_SERVER=0.0.0.0:8899 -p 8899:8899 -d pengzhile/pandora
+docker run  -e PANDORA_CLOUD=cloud  -e PANDORA_SERVER=0.0.0.0:8899  -p 8899:8899 -d  --restart=always pengzhile/pandora
 ```
 ## ChatGPT使用时可能会遇到：
 
